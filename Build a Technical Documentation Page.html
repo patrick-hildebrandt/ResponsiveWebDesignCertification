@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Technical Documentation Page</title>
+    <style>
+        @media (max-width: 970px) {
+            .nav-link {
+                margin-top: -10px;
+                color: #38F2FF;
+            }
+        }
+
+        @media (min-width: 970px) {
+            .nav-link {
+                margin-top: -10px;
+                color: #38F2FF;
+            }
+        }
+
+        body {
+            background-image: url(http://hildebrandt-work.bplaced.net/resource/waben2.jpg);
+            background-attachment: fixed;
+        }
+
+        .fixed {
+            position: fixed;
+            left: 10px;
+            top: 10px;
+        }
+
+        .nav-link {
+            margin-top: -10px;
+            color: #38F2FF;
+        }
+
+        #header {
+            margin-top: -10px;
+            color: #38F2FF;
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+
+        .header {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        #navbar {
+            background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+            border-color: #38F2FF;
+            border-style: solid;
+            border-width: 1px;
+            font-size: 14px;
+        }
+
+        .main-section {
+            background-color: gray;
+            border-color: #38F2FF;
+            border-style: solid;
+            border-width: 1px;
+            padding: 30px;
+            margin: 10px 20px 10px 300px;
+            border-radius: 50px;
+            text-align: center;
+            color: #38F2FF;
+            font-size: 18px;
+        }
+
+        li {
+            display: flex;
+            justify-content: center;
+            padding-right: 40px;
+        }
+
+        .code {
+            background-color: lightgray;
+            color: #5036F5;
+            border-style: solid;
+            border-color: #5036F5;
+            border-radius: 10px;
+            border-width: 1px;
+            padding: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar" class="fixed">
+        <header id="header">
+            <h1 class="">Technical Documentation</h1>
+        </header>
+        <h2><a class="nav-link" href="#Describe_the_topic_One">Describe the topic One</a></h2>
+        <h2><a class="nav-link" href="#Describe_the_topic_Two">Describe the topic Two</a></h2>
+        <h2><a class="nav-link" href="#Describe_the_topic_Three">Describe the topic Three</a></h2>
+        <h2><a class="nav-link" href="#Describe_the_topic_Four">Describe the topic Four</a></h2>
+        <h2><a class="nav-link" href="#Describe_the_topic_Five">Describe the topic Five</a></h2>
+        <h2><a class="nav-link" href="#Describe_the_topic_Six">Describe the topic Six</a></h2>
+    </nav>
+
+    <main id="main-doc">
+
+        <section class="main-section" id="Describe_the_topic_One">
+            <header class="header">Describe the topic One</header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <div class="code">
+                <code>
+  .main-section {<br/>
+    background-color: gray;<br/>
+    border-color: #52F0D2;<br/>
+    border-style: solid;<br/>
+    border-width: 1px;<br/>
+    padding: 30px;<br/>
+    margin: 10px 20px 10px 300px;<br/>
+    border-radius: 50px;<br/>
+    text-align: center;<br/>
+    color: #52F0D2;<br/>
+    font-size: 18px;<br/>
+  }
+        </code>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                    consetetur sadipscing elitr,
+                </li>
+                <li>
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                </li>
+                <li>
+                    sed diam voluptua.
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Describe_the_topic_Two">
+            <header class="header">Describe the topic Two</header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <div class="code">
+                <code>
+  .main-section {<br/>
+    background-color: gray;<br/>
+    border-color: #52F0D2;<br/>
+    border-style: solid;<br/>
+    border-width: 1px;<br/>
+    padding: 30px;<br/>
+    margin: 10px 20px 10px 300px;<br/>
+    border-radius: 50px;<br/>
+    text-align: center;<br/>
+    color: #52F0D2;<br/>
+    font-size: 18px;<br/>
+  }
+        </code>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                    consetetur sadipscing elitr,
+                </li>
+                <li>
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                </li>
+                <li>
+                    sed diam voluptua.
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Describe_the_topic_Three">
+            <header class="header">Describe the topic Three</header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <div class="code">
+                <code>
+  .main-section {<br/>
+    background-color: gray;<br/>
+    border-color: #52F0D2;<br/>
+    border-style: solid;<br/>
+    border-width: 1px;<br/>
+    padding: 30px;<br/>
+    margin: 10px 20px 10px 300px;<br/>
+    border-radius: 50px;<br/>
+    text-align: center;<br/>
+    color: #52F0D2;<br/>
+    font-size: 18px;<br/>
+  }
+        </code>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                    consetetur sadipscing elitr,
+                </li>
+                <li>
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                </li>
+                <li>
+                    sed diam voluptua.
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Describe_the_topic_Four">
+            <header class="header">Describe the topic Four</header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <div class="code">
+                <code>
+  .main-section {<br/>
+    background-color: gray;<br/>
+    border-color: #52F0D2;<br/>
+    border-style: solid;<br/>
+    border-width: 1px;<br/>
+    padding: 30px;<br/>
+    margin: 10px 20px 10px 300px;<br/>
+    border-radius: 50px;<br/>
+    text-align: center;<br/>
+    color: #52F0D2;<br/>
+    font-size: 18px;<br/>
+  }
+        </code>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                    consetetur sadipscing elitr,
+                </li>
+                <li>
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                </li>
+                <li>
+                    sed diam voluptua.
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Describe_the_topic_Five">
+            <header class="header">Describe the topic Five</header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <div class="code">
+                <code>
+  .main-section {<br/>
+    background-color: gray;<br/>
+    border-color: #52F0D2;<br/>
+    border-style: solid;<br/>
+    border-width: 1px;<br/>
+    padding: 30px;<br/>
+    margin: 10px 20px 10px 300px;<br/>
+    border-radius: 50px;<br/>
+    text-align: center;<br/>
+    color: #52F0D2;<br/>
+    font-size: 18px;<br/>
+  }
+        </code>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                    consetetur sadipscing elitr,
+                </li>
+                <li>
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                </li>
+                <li>
+                    sed diam voluptua.
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Describe_the_topic_Six">
+            <header class="header">Describe the topic Six</header>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <div class="code">
+                <code>
+  .main-section {<br/>
+    background-color: gray;<br/>
+    border-color: #52F0D2;<br/>
+    border-style: solid;<br/>
+    border-width: 1px;<br/>
+    padding: 30px;<br/>
+    margin: 10px 20px 10px 300px;<br/>
+    border-radius: 50px;<br/>
+    text-align: center;<br/>
+    color: #52F0D2;<br/>
+    font-size: 18px;<br/>
+  }
+        </code>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                    consetetur sadipscing elitr,
+                </li>
+                <li>
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                </li>
+                <li>
+                    sed diam voluptua.
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>

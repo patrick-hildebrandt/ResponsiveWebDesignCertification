@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Survey Form</title>
+    <style>
+        .leftTop {
+          grid-area: leftTop;
+      }
+        .centerTop {
+          grid-area: centerTop;
+      }
+        .rightTop {
+          grid-area: rightTop;
+      }
+        .leftMiddle {
+          grid-area: leftMiddle;
+      }
+        .centerMiddle {
+          background: dimgray;
+          border-radius: 10px;
+          grid-area: centerMiddle;
+          font-size: 30px;
+          padding: 10px;
+          margin-top: 20px;
+          opacity: 0.9;
+      }
+        .rightMiddle {
+          grid-area: rightMiddle;
+      }
+        .leftBottom {
+          grid-area: leftBottom;
+      }
+        .centerBottom {
+          grid-area: centerBottom;
+      }
+        .rightBottom {
+          grid-area: rightBottom;
+      }
+        .wrapAll {
+          width: 100%;
+          background-image: url(http://hildebrandt-work.bplaced.net/resource/waben5.jpg);
+          background-attachment: fixed;
+          display: grid;
+          grid-template-columns: 1fr 70% 1fr;
+          grid-template-rows: 100px minmax(100px, auto) 100px;
+          grid-gap: 10px;
+          grid-template-areas:
+            "leftTop centerTop rightTop"
+            "leftMiddle centerMiddle rightMiddle"
+            "leftBottom centerBottom rightBottom";
+          text-align: center;
+          color: #FF8A00;
+        }
+
+      .spacer {
+        margin-left: 10px;
+        margin-right: 30px;
+      }
+      .spacer2 {
+        margin-left: 30px;
+        margin-right: 10px;
+      }
+      </style>
+</head>
+<body>
+    <div class="wrapAll">
+    <div class="leftTop">
+  
+    </div>
+    <div class="centerTop">
+      <h1 id="title">
+        Muss ich wissen:
+      </h1>
+      <p id="description" style="margin-top: -20px;">
+        alles was unten steht
+      </p>
+    </div>
+    <div class="rightTop">
+      
+    </div>
+    <div class="leftMiddle">
+      
+    </div>
+    <div class="centerMiddle">
+      <form id="survey-form">
+        <label id="name-label">
+          Dein Name
+        </label>
+        <input class="spacer" id="name" type="text" placeholder="Haste Vergessen" required/>
+        <label id="email-label">
+          Deine E-Mail
+        </label>
+        <input class="spacer" id="email" type="email" placeholder="du@da.de" required/>
+        <label id="number-label">
+          Alt genug?
+        </label>
+        <input class="spacer" id="number" type="number" min="18" max="67" placeholder="min. 18 ohne Rente" required/>
+        <br/>
+        <br/>
+        <label for="dropdown">Suchs Dir aus!</label>
+        <select class="spacer" id="dropdown" required>
+          <option disabled selected value>Noch keine Ahnung?</option>
+          <option>Lottogewinn</option>
+          <option>Sabbatical</option>
+          <option>24/7</option>
+          <option>42 Heilbronn</option>
+          <option>Willste nicht sagen?</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="selectList"><b>Sonst noch Wünsche?</b></label>
+        <br/>
+        <input class="spacer2" type="radio" name="selectList" value="car">1 Firmenwagen</input>
+        <input class="spacer2" type="radio" name="selectList" value="assisted">2 Assistenten</input>
+        <input class="spacer2" type="radio" name="selectList" value="displays">3 Displays</input>
+        <input class="spacer2" type="radio" name="selectList" value="vacation">4 Wochen Urlaub Extra</input>
+        <br/>
+        <br/>
+        <label for="yesWeScan"><b>Kannst Du?</b></label>
+        <br/>
+        <input class="spacer2" type="checkbox" name="yesWeScan" value="car">Schreiben</input>
+        <input class="spacer2" type="checkbox" name="yesWeScan" value="assisted">Rechnen</input>
+        <input class="spacer2" type="checkbox" name="yesWeScan" value="displays">Klatschen</input>
+        <input class="spacer2" type="checkbox" name="yesWeScan" value="vacation">Hammer halten</input>
+        <br/>
+        <br/>
+        <label for="comment">Noch was zu sagen?</label>
+        <br/>
+        <textarea id="comment"></textarea>
+        <br/>
+        <br/>
+        <input id="submit" type="submit" value="schnellste Bewerbung ever!"></input>
+      </form>
+    </div>
+    <div class="rightMiddle">
+      
+    </div>
+    <div class="leftBottom">
+      
+    </div>
+    <div>
+      <h1>
+        Dann komm doch!
+      </h1>
+      <p style="margin-top: -20px;">
+        sonst überleg ichs mir...
+      </p>
+    </div>
+    <div class="rightBottom">
+      
+    </div>
+  </div>
+  </body>
+</html>

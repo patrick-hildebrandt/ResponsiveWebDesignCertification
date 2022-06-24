@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Product Landing Page</title>
+    <style>
+        @media (max-width: 1020px) {
+        }
+        #video {
+          width: 100%;
+          height: 450px;
+        }
+        #header-img {
+          width: 100%;
+          border-color: orange;
+          border-style: solid;
+          border-width: 1px;
+          border-radius: 10px;
+        }
+        @media (min-width: 1020px) {
+          .grid {
+          display: flex;
+          justify-content: center;
+        }
+          body {
+            background-color: lightgray;
+            background-image: url(http://hildebrandt-work.bplaced.net/resource/waben4.webp);
+            background-attachment: fixed;
+            color: white;
+          }
+        #video {
+          width: 700px;
+          height: 350px;
+          border-color: orange;
+          border-style: solid;
+          border-width: 1px;
+          border-radius: 10px;
+        }
+        #header-img {
+          width: 700px;
+        }
+          .fixed {
+          position: fixed;
+          left: -1%;
+          top: -2%;
+          }
+        }
+        #page-wrapper {
+          position: relative;
+        }
+        a {
+          color: orange;
+          font-size: 1.3rem;
+        }
+        #nav-bar {
+          background-color: gray;
+          padding: 4px 24px 4px 0px;
+          border-radius: 10px;
+          border-color: orange;
+          border-style: solid;
+          border-width: 1px;
+        }
+        .info {
+          background-color: gray;
+          border-color: orange;
+          border-style: solid;
+          border-width: 1px;
+          color: white;
+          padding: 30px;
+          border-radius: 10px;
+          width: 700px;
+        }
+        </style>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header class="grid" id="header">
+            <img
+              id="header-img"
+              src="http://hildebrandt-work.bplaced.net/images/banner.jpg"
+              alt="logo of mine"
+            />
+          <nav id="nav-bar" class="fixed">
+            <ul>
+              <li><a class="nav-link" href="#learning">Learning</a></li>
+              <li><a class="nav-link" href="#features">Features</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+              <li><a class="nav-link" href="#navigation">Navigation</a></li>
+              <li><a class="nav-link" href="#for">For</a></li>
+              <li><a class="nav-link" href="#decoration">Decoration</a></li>
+            </ul>
+          </nav>
+        </header>
+      
+        <h2 class="grid">Currently learning:</h2>
+        <section class="grid" id="learning">
+      <iframe id="video" src="http://www.youtube.com/embed/mU6anWqZJcc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </section>
+      
+        <h2 class="grid">Features of me:</h2>
+        <section class="grid" id="features">
+          <h3 class="info">
+            ➢ pragmatic ➢ adaptive ➢ problem-solving
+      ➢ analytical ➢ structured ➢ organized
+          </h3>
+        </section>
+      
+        <h2 class="grid">Contact:</h2>
+        <section class="grid" id="contact">
+          <form id="form" class="info" action="http://www.freecodecamp.com/email-submit">
+            <label for="email">
+              Your e-mail:
+            </label>
+            <input id="email" type="email" name="email" placeholder="tip in" required/>
+            <input id="submit" type="submit" name="email" value="Request Infos"/>
+          </form>
+        </section>
+        
+          <h2 class="grid">Information for decoration</h2>
+        <section class="grid" id="navigation">
+          <h3 class="info">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </h3>
+        </section>
+        
+            <h2 class="grid">Information for decoration</h2>
+        <section class="grid" id="for">
+          <h3 class="info">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </h3>
+        </section>
+        
+            <h2 class="grid">Information for decoration</h2>
+        <section class="grid" id="decoration">
+          <h3 class="info">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </h3>
+        </section>
+        
+        <footer></footer>
+</body>
+</html>

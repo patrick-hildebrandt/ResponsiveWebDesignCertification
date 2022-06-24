@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Tribute Page</title>
+    <style>
+
+        #main {
+          background-image: url(http://hildebrandt-work.bplaced.net/resource/waben6.jpg);
+            background-attachment: fixed;
+          color: white;
+          font-size: 1.3rem;
+        }
+        #title {
+          display: grid;
+          justify-content: center;
+          margin-top: 0vh;
+        }
+        .spacer {
+          padding-top: 10vh;
+        }
+        #tribute-info {
+          display: grid;
+          justify-content: center;
+        }
+        #img-div {
+          display: grid;
+          justify-content: center;
+          grid-template-columns: 300px;
+        }
+        #image {
+          max-width: 100%;
+          height: auto;
+          margin: auto;
+        }
+        #img-caption {
+          text-align: center;
+        }
+        #tribute-text {
+          display: grid;
+          justify-content: center;
+          grid-template-columns: 400px;
+          text-align: center;
+        }
+        #tribute-link {
+          display: grid;
+          justify-content: center;
+          padding-bottom: 10vh;
+        }
+        a {
+          color: white;
+        }
+        </style>
+</head>
+<body>
+    <main id="main">
+      <header>
+        <h1 id="title" class="spacer">
+          Hideo Kojima
+        </h1>
+        <p id="tribute-info">
+          A tribute to Hideo Kojima and what he has achieved for gaming at all.
+        </p>
+      </header>
+      <nav></nav>
+      <article>
+          <div id="img-div">
+            <img id="image" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kojima_Death_Stranding_2018.jpg/220px-Kojima_Death_Stranding_2018.jpg" alt="a picture of Hideo Kojima from 2018">
+            <figcaption id="img-caption">
+              Hideo Kojima promoting Death Stranding at Tokyo Game Show 2018
+            </figcation>
+          </div>
+        <div id="tribute-text">
+        <h2>
+          Main Achievments:
+        </h2>
+        <h3>
+          Silent Hill:
+        </h3>
+        <p>
+          It is common opinion that Silent Hill 1 was the best horror game ever made. One reason, if not the main reason for this great success was the decision to design it with unusual camera perspectives. He tried to interpret the style of filming like Alfred Hitchcook did in a video game instead of showing the main character in a fixed position, what was common usage for reasons of playstyle. The influence of this "technology" is indispensable nowadays and can be seen in nearly every video game.
+        </p>
+        <h3>
+          Metal Gear:
+        </h3>
+        <p>
+          With this game he invented a whole genre of games called "stealth action". Even if this game was no "open world" game like many modern titles today, he gave the player the choice to decide how to achieve a goal in this really early period of video games. The player could choose if he wanted to kill his enemys, avoid them or to knock them out with the risk of beeing discovered. In the following sequels he always invented new mechanics that inspired the whole industry and build up an exciting story that was even planned to be filmed as a triple a Hollywood production.
+        </p>
+        </div>
+        <h3>
+          <a id="tribute-link" href="http://de.wikipedia.org/wiki/Hideo_Kojima.html" target="_blank">
+            A link to Wikipedia about Hideo Kojima
+          </a>
+        </h3>
+      </article>
+      <footer></footer>
+    </main>
+  </body>
+</html>
